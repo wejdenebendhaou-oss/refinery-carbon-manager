@@ -329,7 +329,7 @@ def default_scope3_tables():
                 "Loading Port": ["Skhira, Tunisia", "Ras Lanuf, Libya", "Ceyhan, Turkey"],
                 "Cargo t": [160_009.681, 187_651.194, 618_051.110],
                 "Distance km": [648.2, 833.4, 3055.8],
-                "EF tCO2e/t.km": [0.006, 0.003, 0.003],
+                "EF tCO2e/t.km": [0.006 / 1000, 0.003 / 1000, 0.003 / 1000],  # Facteurs convertis en tCO2e/t.km
             }
         ),
         "cat9": pd.DataFrame(
